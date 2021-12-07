@@ -1,3 +1,25 @@
 .navbar{
   background-color: #a4fcad;
 }
+
+.newsletter {
+    padding: 80px 0;
+    background: #dbdbdb;
+    color: #669174;
+}
+
+.newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.btn {
+    background: #669174;
+    font-weight: 300;
+    color: white;
+}
+.btn:hover {
+    background: #4f705a;
+}
