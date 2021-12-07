@@ -23,3 +23,7 @@
 .btn:hover {
     background: #4f705a;
 }
+#navLogo{
+  height: 50px;
+  width: auto;
+}
