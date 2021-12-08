@@ -3,9 +3,10 @@
 }
 
 .newsletter {
-    padding: 80px 0;
-    background: #dbdbdb;
-    color: #669174;
+  margin-top: 2%;
+  padding: 80px 0;
+  background: #dbdbdb;
+  color: #669174;
 }
 
 .newsletter .content {
@@ -23,7 +24,35 @@
 .btn:hover {
     background: #4f705a;
 }
+#main-content{
+  padding-left: 1%;
+  padding-right: 1%;
+}
 #navLogo{
   height: 50px;
   width: auto;
+}
+#contact, #contact-address{
+  padding: 0;
+  margin-bottom: 2%;
+  border: 1px solid;
+  border-color: #DCDCDC;
+}
+#social{
+  text-align: center;
+  margin-bottom: 2%;
+}
+#contact-form, #contact-address-details{
+  padding: 2%;
+}
+#contact-form-heading, #contact-address-heading{
+  width: 100%;
+  color: white;
+  padding-left: 1em;
+}
+#contact-form-heading{
+  background-color: #007bff;
+}
+#contact-address-heading{
+  background-color: #28A742;
 }

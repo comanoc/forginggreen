@@ -16,7 +16,7 @@
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html"><img src="images/forginggreen.svg" id="navLogo">Forging Green</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ForgingGreenNav" aria-controls="Forging Green Nav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="bi bi-list"></span>
           </button>
           <div class="collapse navbar-collapse" id="ForgingGreenNav">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
@@ -36,15 +36,61 @@
           </div>
         </div>
       </nav>
-      <div class="main-content">
+      <div id="main-content">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
                     <div class="content">
-                        <img src="https://cdn.pixabay.com/photo/2019/12/27/08/36/coming-soon-hour-glass-4721933_1280.png" alt="">
+                        <img class="img-fluid" src="https://cdn.pixabay.com/photo/2019/12/27/08/36/coming-soon-hour-glass-4721933_1280.png" alt="">
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="container">
+          <div class="row justify-content-around">
+              <div class="col-sm-12 col-md-8" id="contact">
+                <h3 id="contact-form-heading"><i class="bi bi-envelope-fill"></i> Contact Us!</h3>
+                <form id="contact-form">
+                  <div class="form-group">
+                    <label for="userEmail">Email address</label>
+                    <input type="email" class="form-control" id="userEmail" placeholder="Enter email">
+                  </div>
+                  <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <select id="subject" class="form-control">
+                      <option>Sales</option>
+                      <option>Other</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="msg">Message</label>
+                    <textarea id="msg" class="form-control" rows="8"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
+              <div class="col-sm-12 col-md-3" id="contact-address">
+                <h3 id="contact-address-heading"><i class="bi bi-house-fill"></i> Address</h3>
+                <div id="contact-address-details">
+                  <p>Address first line</p>
+                  <p>Address second line</p>
+                  <p>Address third line</p>
+                  <p>Postcode</p>
+                  <p>Email</p>
+                  <p>Tel: </p>
+                </div>
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12" id="social">
+              <h3 id="social-heading"><i class="bi bi-globe2"></i> Social Media</h3>
+              <div id="social-details">
+                <a href="#"><p><i class="bi bi-twitter"></i> Twitter</p></a>
+                <a href="#"><p><i class="bi bi-facebook"></i> Facebook</p></a>
+                <a href="#"><p><i class="bi bi-linkedin"></i> Linkedin</p></a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="newsletter">
