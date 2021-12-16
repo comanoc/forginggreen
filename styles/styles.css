@@ -9,7 +9,7 @@
   color: #669174;
 }
 
-.newsletter .content {
+.newsletter .newsletter>.content {
     max-width: 650px;
     margin: 0 auto;
     text-align: center;
@@ -24,10 +24,12 @@
 .btn:hover {
     background: #4f705a;
 }
+
 #main-content{
   padding-left: 1%;
   padding-right: 1%;
 }
+
 #navLogo{
   height: 50px;
   width: auto;
@@ -55,4 +57,18 @@
 }
 #contact-address-heading{
   background-color: #28A742;
+}
+
+.jumbotron {
+  position: relative;
+  background-image: url("../images/natural-climate-change.jpeg");
+  background-size: cover;
+  background-position: bottom;
+  min-height: 500px;
+}
+#heading {
+  color: blue;
+  background-color: #a4fcad;
+  position: absolute;
+  bottom: 0;
 }
