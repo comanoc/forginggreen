@@ -78,3 +78,16 @@
 .accordion{
   margin-top: 5px;
 }
+#goals, .list-group-item {
+  background-color: #a4fcad;
+  color: blue;
+  font-size: 1.1em;
+}
+.list-group-item{
+  border-style: none;
+  text-align: center;
+}
+#goals{
+  margin-top: 10px;
+  text-align: left;
+}
