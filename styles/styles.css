@@ -70,6 +70,8 @@
   color: blue;
   background-color: #a4fcad;
   position: absolute;
+  padding-left: 1em;
+  padding-right: 1em;
   bottom: 0;
 }
 .card-img-top{
