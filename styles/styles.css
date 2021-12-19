@@ -61,10 +61,22 @@
 
 .jumbotron {
   position: relative;
-  background-image: url("../images/natural-climate-change.jpeg");
   background-size: cover;
   background-position: bottom;
   min-height: 500px;
+  margin-bottom: 2px;
+}
+#index-jumbotron{
+  background-image: url("../images/natural-climate-change.jpeg");
+}
+#services-jumbotron{
+  background-image: url("../images/services.jpeg");
+}
+#contact-jumbotron{
+  background-image: url("../images/contact-us.png");
+}
+#solutions-jumbotron{
+  background-image: url("../images/solutions.jpg");
 }
 #heading {
   color: blue;
