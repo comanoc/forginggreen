@@ -67,13 +67,13 @@
   margin-bottom: 2px;
 }
 #index-jumbotron{
-  background-image: url("../images/natural-climate-change.jpeg");
+  background-image: url("../images/natural-climate-change.webp");
 }
 #services-jumbotron{
   background-image: url("../images/services.jpeg");
 }
 #contact-jumbotron{
-  background-image: url("../images/contact-us.png");
+  background-image: url("../images/contact-us.webp");
 }
 #solutions-jumbotron{
   background-image: url("../images/solutions.jpg");
