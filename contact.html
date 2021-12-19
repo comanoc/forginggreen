@@ -196,6 +196,7 @@ function validateContact(){
       Allows for hyphen for double barrel names
       Allows for ' for names like O'Connell
       Can't start or end with a - or '
+      Downside min name length 3 valid characters
     */
     var nameRe = /^[À-ÖØ-öø-ÿA-Za-z+?]+[À-ÖØ-öø-ÿA-Za-z '-]+[À-ÖØ-öø-ÿA-Za-z ]$/
     if(!nameRe.test(name)){
